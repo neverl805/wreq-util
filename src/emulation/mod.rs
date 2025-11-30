@@ -135,6 +135,7 @@ define_enum!(
     Edge127 => ("edge_127", edge127::emulation),
     Edge131 => ("edge_131", edge131::emulation),
     Edge134 => ("edge_134", edge134::emulation),
+    Edge142 => ("edge_142", edge142::emulation),
 
     // Opera versions
     Opera116 => ("opera_116", opera116::emulation),
@@ -155,6 +156,7 @@ define_enum!(
     Safari17_2_1 => ("safari_17.2.1", safari17_2_1::emulation),
     Safari17_4_1 => ("safari_17.4.1", safari17_4_1::emulation),
     Safari17_5 => ("safari_17.5", safari17_5::emulation),
+    Safari17_6 => ("safari_17.6", safari17_6::emulation),
     Safari18 => ("safari_18", safari18::emulation),
     SafariIPad18 => ("safari_ipad_18", safari_ipad_18::emulation),
     Safari18_2 => ("safari_18.2", safari18_2::emulation),
@@ -179,6 +181,8 @@ define_enum!(
     Firefox139 => ("firefox_139", ff139::emulation),
     Firefox142 => ("firefox_142", ff142::emulation),
     Firefox143 => ("firefox_143", ff143::emulation),
+    Firefox144 => ("firefox_144", ff144::emulation),
+    Firefox145 => ("firefox_145", ff145::emulation),
 
     // OkHttp versions
     OkHttp3_9 => ("okhttp_3.9", okhttp3_9::emulation),
