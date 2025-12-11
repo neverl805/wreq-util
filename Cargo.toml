@@ -36,6 +36,7 @@ emulation-zstd = []
 
 [dependencies]
 wreq = { git = "https://github.com/neverl805/wreq", default-features = false }
+#wreq = { path = "../../wreq", default-features = false }
 serde = { version = "1.0.228", features = ["derive"], optional = true }
 typed-builder = { version = "0.23.2", optional = true }
 strum = { version = "0.27.2", optional = true }

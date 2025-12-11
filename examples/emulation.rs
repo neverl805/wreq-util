@@ -5,7 +5,7 @@ use wreq_util::Emulation;
 async fn main() -> Result<(), wreq::Error> {
     // Build a client to emulation Safari26
     let client = Client::builder()
-        .emulation(Emulation::Safari26)
+        .emulation(Emulation::Safari26_1)
         .cert_verification(false)
         .build()?;
 
